@@ -5,11 +5,11 @@ const { Pool, Client } = require('pg')
 const pool = new Pool({
   // START HERE FOR DEPLOYMENT WHEN WORKING ON HORIZ SCALING
   // GET A HOST SERVER UP FROM AWS EC2
-  host: '172.31.5.196',
-  user: 'postgres',
+  // host: '172.31.5.196',
+  // user: 'postgres',
   database: 'hotel',
   // password: 'postgres',
-  port: 5432
+  // port: 5432
 })
 
 function postgresGet(filter) {
